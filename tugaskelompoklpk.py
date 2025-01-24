@@ -442,7 +442,7 @@ def main():
         with st.form(key='chat_form', clear_on_submit=True):
             cols = st.columns([4, 1])
             with cols[0]:
-                user_input = st.text_input("Tulis yang sedang kamu butuhkan...", 
+                user_input = st.text_input("Tulis permasalahan wajah yang kamu alami...", 
                                          key="user_input")
             with cols[1]:
                 submit_button = st.form_submit_button("Kirim")
