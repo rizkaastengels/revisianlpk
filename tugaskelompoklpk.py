@@ -414,7 +414,7 @@ def main():
         # Initialize chat history
         if "messages" not in st.session_state:
             st.session_state.messages = [
-                {"role": "assistant", "content": "Halo! 👋 Saya dapat membantu anda untuk mengatasi permasalahan kulit seperti kulit kering, kulit berminyak, kulit berjerawat dan kulit sensitif. Apa keluhan Anda?"}
+                {"role": "assistant", "content": "Halo! 👋 Saya dapat membantu anda untuk memberi informasi permasalahan kulit seperti kulit kering, kulit berminyak, kulit berjerawat dan kulit sensitif. Apa keluhan Anda?"}
             ]
 
         # Display chat messages
